@@ -1,7 +1,7 @@
-import { useState, useEffect } from 'react'
+import { JSX, useState, useEffect } from 'react'
 import './App.css'
 
-function App() {
+function App(): JSX.Element {
   const [ message, setMessage ] = useState<string>("");
 
   useEffect(() => {
